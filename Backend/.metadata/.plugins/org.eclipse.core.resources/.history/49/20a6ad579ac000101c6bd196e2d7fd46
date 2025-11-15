@@ -1,0 +1,19 @@
+# 1. Give this app a name
+spring.application.name=api-gateway
+
+# 2. Tell this service where Eureka is
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+# 3. THE NEW WAY TO LOAD CONFIG (Spring Boot 3+)
+# This tells Spring: "Import your configuration from the Config Server"
+spring.config.import=optional:configserver:
+
+# 4. Tell the Config Client to use Eureka to find the Config Server
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.service-id=config-server
+
+# 5. Retry settings (to wait for the Config Server)
+spring.cloud.config.fail-fast=true
+spring.cloud.config.retry.max-attempts=20
+spring.cloud.config.retry.initial-interval=2000
+spring.cloud.config.retry.max-interval=5000

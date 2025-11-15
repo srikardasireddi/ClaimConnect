@@ -1,0 +1,40 @@
+Now that your .gitignore file has the rules, go back to your terminal (which is still at C:\...ClaimConnect>) and run these commands again, one by one.
+
+This time, you will not see any warnings.
+
+Add all the files (the correct way):
+
+Bash
+
+git add .
+
+Create your "save point":
+
+Bash
+
+git commit -m "Initial commit: All backend services working without security"
+
+Set your main branch name:
+
+Bash
+
+git branch -M main
+
+Link your local folder to GitHub:
+
+Bash
+
+git remote add origin https://github.com/srikardasireddi/ClaimConnect-Microservices.git
+
+Push (Upload) your code:
+
+Bash
+
+git push -u origin main
+
+After this, your code will be on GitHub. Then you can run the final two commands to create your safe "security" branch:
+
+Bash
+
+git checkout -b feat/security
+git push -u origin feat/security

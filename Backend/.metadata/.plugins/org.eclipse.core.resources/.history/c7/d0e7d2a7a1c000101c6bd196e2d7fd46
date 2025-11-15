@@ -1,0 +1,15 @@
+# 1. This name MUST match the file name on GitHub ("api-gateway.properties")
+spring.application.name=api-gateway
+
+# 2. This tells the gateway how to find Eureka
+eureka.client.serviceUrl.defaultZone=http://localhost:8761/eureka
+
+# 3. This tells the gateway to load its config from the Config Server
+spring.config.import=optional:configserver:
+spring.cloud.config.discovery.enabled=true
+spring.cloud.config.discovery.service-id=config-server
+
+# 4. This tells the gateway to wait for the Config Server
+spring.cloud.config.fail-fast=true
+spring.cloud.config.retry.max-attempts=20
+spring.cloud.config.retry.initial-interval=2000
