@@ -13,7 +13,8 @@ This is a complete full-stack, end-to-end application that simulates an insuranc
 The entire backend is discoverable, routable, and configurable via a Spring Cloud infrastructure. The frontend is a complete Single Page Application (SPA) with full CRUD (Create, Read, Update, Delete) functionality.
 
 🏛️ Architecture & Tech Stack
-![Uploading licensed-image.jpg…]()
+![licensed-image](https://github.com/user-attachments/assets/04da4d5c-7891-4fc1-87e3-cb87ded78a59)
+
 
 This project follows a "database-per-service" microservice architecture.
 
