@@ -1,0 +1,25 @@
+/* A simple CSS reset and body style */
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  
+  /* This is the new light gray background for the whole page */
+  background-color: #f4f7f6; 
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+/* Make links look nice */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
