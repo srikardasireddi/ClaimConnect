@@ -1,3 +1,11 @@
+<img width="1912" height="870" alt="Screenshot 2025-11-18 063134" src="https://github.com/user-attachments/assets/2410c9c7-cf46-4ff6-a0a2-1136130e7b7a" />
+
+<img width="1918" height="876" alt="Screenshot 2025-11-18 063200" src="https://github.com/user-attachments/assets/8625a160-9e1e-4ee1-bdc6-3999dba030fd" />
+<img width="1913" height="872" alt="Screenshot 2025-11-18 063225" src="https://github.com/user-attachments/assets/d6245141-0e56-4b4e-a939-53b42f8f8229" />
+<img width="1917" height="871" alt="Screenshot 2025-11-18 063243" src="https://github.com/user-attachments/assets/5ff4017c-9d79-4c5b-a466-8b3c16c09ad0" />
+<img width="1915" height="871" alt="Screenshot 2025-11-18 063301" src="https://github.com/user-attachments/assets/cda96fe6-2b0b-4a3d-aa95-6407dba1d3a9" /><img width="1915" height="870" alt="Screenshot 2025-11-18 063334" src="https://github.com/user-attachments/assets/0b1b58f9-3409-4f1c-890f-3b2ad5035b53" />
+
+
 🚀 ClaimConnect - A Spring Boot Microservices & React Application
 
 This is a complete full-stack, end-to-end application that simulates an insurance claim processing system. It is built with a backend of multiple Spring Boot microservices and a complete React.js frontend.
